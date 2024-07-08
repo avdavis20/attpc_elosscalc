@@ -1,0 +1,14 @@
+GOAL OF JSON: Configure reaction specs.
+-> Target: compound, pressure
+-> Projectile: isotope,
+-> Ejectile: isotope, 
+
+
+
+
+CURRENT JSON-
+
+{
+"
+}
+

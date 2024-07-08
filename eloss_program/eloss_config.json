@@ -1,0 +1,26 @@
+{
+"Isotope Info": {
+    "zbeam_entry": 5, 
+    "mbeam_entry": 10, 
+    "ztarget_entry": 2, 
+    "mtarget_entry": 4, 
+    "ztargetlike_entry": 3,
+    "mtargetlike_entry": 6 
+},
+"Reaction Info": {
+    "beamke_entry": 15, 
+    "comangle_entry": 45, 
+    "nreaction_entry": 2, 
+    "excitation_entry": 10 
+},
+"Dimension of Detector": {
+    "x_dim_entry": 100, 
+    "y_dim_entry": 30, 
+    "deadzone_entry": 3, 
+    "threshold_entry": 6 
+},
+"Conditions": {
+    "pressure": 10e-4,
+    "temp": 273
+}
+}

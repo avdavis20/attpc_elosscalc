@@ -11,7 +11,7 @@ from spyral_utils.nuclear.target import TargetData, GasTarget
 from pathlib import Path
 import numpy as np
 
-output_path = Path("./output/kinematics/kinsimtest.h5")
+output_path = Path('/workspaces/attpc_elosscalc/kinematics_simulation/output/kinematics/kinsimtest.h5')
 
 target = GasTarget(
     TargetData(compound=[(1, 2, 2)], pressure=300.0, thickness=None), nuclear_map

@@ -15,7 +15,7 @@ import json
 
 
 # INITIALIZE OUTPUT PATH
-output_path = Path("./output/kinematics/kinsimtest.h5")
+output_path = Path('/workspaces/attpc_elosscalc/kinematics_simulation/output/kinematics/kinsimtest.h5')
 
 
 # OPEN JSON CONFIG FILE
@@ -44,7 +44,7 @@ pipeline = KinematicsPipeline(
     ejectile = nuclear_map.get_data(1,2), 
     )
   ],
-  [PolarUniform(0.0, np.pi)], # Full angular range 0 deg to 180 deg
+  [PolarUniform(0.0, np.pi)],
   [ExcitationGaussian(0.0,0.001)],
   beam_energy=184.131,
   target_material=KinematicsTargetMaterial(
@@ -57,5 +57,3 @@ pipeline = KinematicsPipeline(
 def main():
   run_kinematics_pipeline(pipeline, nevents, output_path)
 
-if __name__ == "__main__":
-  main()
